@@ -1,0 +1,25 @@
+﻿<Controls:MetroWindow x:Class="BelifeApp2.Menu"
+        xmlns:Controls="http://metro.mahapps.com/winfx/xaml/controls"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BelifeApp2"
+        xmlns:iconPacks="http://metro.mahapps.com/winfx/xaml/iconpacks"
+        mc:Ignorable="d"
+        Title="Menu" Height="300" Width="700" Closing="MetroWindow_Closing">
+    <Grid>
+        <Controls:Tile Title="G.Clientes" Margin="79,58,473,72" Click="Tile_Click">
+            <iconPacks:PackIconMaterial Kind="Account" VerticalAlignment="Center" HorizontalAlignment="Center" Height="65" Width="78" />
+        </Controls:Tile>
+
+        <Controls:Tile Title="Listado clientes" Margin="235,58,237,72" Width="Auto" Click="Tile_Click_1">
+            <iconPacks:PackIconMaterial Kind="FormatListBulleted" VerticalAlignment="Center" HorizontalAlignment="Center" Height="65" Width="78" />
+        </Controls:Tile>
+
+        <Controls:Tile Title="Salir" Margin="472,58,80,72">
+            <iconPacks:PackIconMaterial Kind="ExitToApp" VerticalAlignment="Center" HorizontalAlignment="Center" Height="65" Width="78" />
+        </Controls:Tile>
+        
+    </Grid>
+</Controls:MetroWindow>
