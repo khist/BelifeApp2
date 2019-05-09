@@ -19,7 +19,9 @@ namespace BelifeLibrary
 
         private int _sex;
         private int _estadoCivilId;
+
         private EstadosCivil _estadosCivil;
+        //comentarios
 
         public Cliente()
         {
